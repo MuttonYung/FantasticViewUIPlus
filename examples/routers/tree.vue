@@ -1,5 +1,5 @@
 <template>
-    <Tree :data="data1"></Tree>
+    <Tree :data="data1" show-checkbox multiple></Tree>
 </template>
 <script>
 export default {
@@ -15,7 +15,8 @@ export default {
                             expand: true,
                             children: [
                                 {
-                                    title: 'leaf 1-1-1'
+                                    title: 'leaf 1-1-1',
+                                    disabled: true,
                                 },
                                 {
                                     title: 'leaf 1-1-2'
@@ -27,7 +28,8 @@ export default {
                             expand: true,
                             children: [
                                 {
-                                    title: 'leaf 1-2-1'
+                                    title: 'leaf 1-2-1',
+                                    disableCheckbox: true,
                                 },
                                 {
                                     title: 'leaf 1-2-1'

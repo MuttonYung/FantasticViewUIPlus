@@ -8,98 +8,119 @@
     }
 </style>
 <template>
-    <div id="app" class="container">
-        <div class="container-nav">
-            <span><router-link to="/split">Split</router-link></span>
-            <span><router-link to="/layout">Layout</router-link></span>
-            <span><router-link to="/affix">Affix</router-link></span>
-            <span><router-link to="/anchor">Anchor</router-link></span>
-            <span><router-link to="/grid">Grid</router-link></span>
-            <span><router-link to="/button">Button</router-link></span>
-            <span><router-link to="/input">Input</router-link></span>
-            <span><router-link to="/radio">Radio</router-link></span>
-            <span><router-link to="/checkbox">Checkbox</router-link></span>
-            <span><router-link to="/steps">Steps</router-link></span>
-            <span><router-link to="/timeline">Timeline</router-link></span>
-            <span><router-link to="/switch">Switch</router-link></span>
-            <span><router-link to="/alert">Alert</router-link></span>
-            <span><router-link to="/badge">Badge</router-link></span>
-            <span><router-link to="/tag">Tag</router-link></span>
-            <span><router-link to="/input-number">InputNumber</router-link></span>
-            <span><router-link to="/progress">Progress</router-link></span>
-            <span><router-link to="/upload">Upload</router-link></span>
-            <span><router-link to="/collapse">Collapse</router-link></span>
-            <span><router-link to="/carousel">Carousel</router-link></span>
-            <span><router-link to="/card">Card</router-link></span>
-            <span><router-link to="/tree">Tree</router-link></span>
-            <span><router-link to="/rate">Rate</router-link></span>
-            <span><router-link to="/circle">Circle</router-link></span>
-            <span><router-link to="/tabs">Tabs</router-link></span>
-            <span><router-link to="/tooltip">Tooltip</router-link></span>
-            <span><router-link to="/poptip">Poptip</router-link></span>
-            <span><router-link to="/slider">Slider</router-link></span>
-            <span><router-link to="/dropdown">Dropdown</router-link></span>
-            <span><router-link to="/breadcrumb">Breadcrumb</router-link></span>
-            <span><router-link to="/menu">Menu</router-link></span>
-            <span><router-link to="/spin">Spin</router-link></span>
-            <span><router-link to="/cascader">Cascader</router-link></span>
-            <span><router-link to="/select">Select</router-link></span>
-            <span><router-link to="/backtop">Backtop</router-link></span>
-            <span><router-link to="/page">Page</router-link></span>
-            <span><router-link to="/transfer">Transfer</router-link></span>
-            <span><router-link to="/date">Date</router-link></span>
-            <span><router-link to="/form">Form</router-link></span>
-            <span><router-link to="/table">Table</router-link></span>
-            <span><router-link to="/loading-bar">LoadingBar</router-link></span>
-            <span><router-link to="/modal">Modal</router-link></span>
-            <span><router-link to="/message">Message</router-link></span>
-            <span><router-link to="/notice">Notice</router-link></span>
-            <span><router-link to="/avatar">Avatar</router-link></span>
-            <span><router-link to="/color-picker">ColorPicker</router-link></span>
-            <span><router-link to="/auto-complete">AutoComplete</router-link></span>
-            <span><router-link to="/scroll">Scroll</router-link></span>
-            <span><router-link to="/divider">Divider</router-link></span>
-            <span><router-link to="/time">Time</router-link></span>
-            <span><router-link to="/cell">Cell</router-link></span>
-            <span><router-link to="/drawer">Drawer</router-link></span>
-            <span><router-link to="/icon">Icon</router-link></span>
-            <span><router-link to="/list">List</router-link></span>
-            <span><router-link to="/skeleton">Skeleton</router-link></span>
-            <span><router-link to="/typography">Typography</router-link></span>
-            <span><router-link to="/gradient">Gradient</router-link></span>
-            <Divider></Divider>
-            <span><router-link to="/grid-component">Grid</router-link></span>
-            <span><router-link to="/description-list">DescriptionList</router-link></span>
-            <span><router-link to="/page-header">PageHeader</router-link></span>
-            <span><router-link to="/tag-select">TagSelect</router-link></span>
-            <span><router-link to="/login">Login</router-link></span>
-            <span><router-link to="/notification">Notification</router-link></span>
-            <span><router-link to="/calendar">Calendar</router-link></span>
-            <span><router-link to="/auth">Auth</router-link></span>
-            <span><router-link to="/ellipsis">Ellipsis</router-link></span>
-            <span><router-link to="/table-paste">TablePaste</router-link></span>
-            <span><router-link to="/avatar-list">AvatarList</router-link></span>
-            <span><router-link to="/count-down">CountDown</router-link></span>
-            <span><router-link to="/count-up">CountUp</router-link></span>
-            <span><router-link to="/numeral">Numeral</router-link></span>
-            <span><router-link to="/number-info">NumberInfo</router-link></span>
-            <span><router-link to="/trend">Trend</router-link></span>
-            <span><router-link to="/footer-toolbar">FooterToolbar</router-link></span>
-            <span><router-link to="/global-footer">GlobalFooter</router-link></span>
-            <span><router-link to="/word-count">WordCount</router-link></span>
-            <span><router-link to="/result">Result</router-link></span>
-            <span><router-link to="/exception">Exception</router-link></span>
-            <span><router-link to="/tree-select">TreeSelect</router-link></span>
-            <span><router-link to="/city">City</router-link></span>
-            <span><router-link to="/v-style">v-style</router-link></span>
-            <span><router-link to="/v-resize">v-resize</router-link></span>
-            <span><router-link to="/v-line-clamp">v-line-clamp</router-link></span>
-            <span><router-link to="/copy">$Copy</router-link></span>
-            <span><router-link to="/scroll-top">$ScrollTop</router-link></span>
-            <span><router-link to="/scroll-into-view">$ScrollIntoView</router-link></span>
-            <span><router-link to="/image">Image</router-link></span>
-            <span><router-link to="/space">Space</router-link></span>
+    <div style="margin: 50px" id="app" class="container">
+        <Title :level="1" style="margin: 0;">View UI <Gradient colors="#28c0ff #047af8">Plus</Gradient></Title>
+        <Title :level="1" class="mg-top" style="margin: 0;">开源项目实践成果演示</Title>
+        <Divider>新增组件</Divider>
+        <Title :level="3" class="mg-top">渐变字体</Title>
+        <a class="mg-top" href="https://github.com/view-design/ViewUIPlus/pull/213"><Button>Pull Request</Button></a>
+        <Text code class="mg-top">{{'<Title :level="1"><Gradient colors="#40E0D0 #FF8C00 #FF0080">多彩人生，由你掌握</Gradient></Title>'}}</Text>
+        <Title :level="1" style="margin-top:0.6rem" class="mg-top"><Gradient colors="#40E0D0 #FF8C00 #FF0080">多彩人生，由你掌握</Gradient></Title>
+        
+        <Divider>组件修改</Divider>
+
+        <Title :level="3" class="mg-top">为poptip添加右键触发方式</Title>
+        <a class="mg-right" href="https://github.com/view-design/ViewUIPlus/pull/219"><Button>Pull Request</Button></a>
+        
+        <Title :level="3" class="mg-top">为Scroll更改滚动条样式</Title>
+        <a class="mg-right" href="https://github.com/view-design/ViewUIPlus/pull/214"><Button>Pull Request</Button></a>
+
+        <Scroll :on-reach-edge="handleReachEdge">
+            <Card dis-hover v-for="(item, index) in list" :key="index" style="margin: 32px 0">
+                Content {{ item }}
+            </Card>
+        </Scroll>
+
+        <Divider>Bug修复</Divider>
+        <Title :level="3" class="mg-top">Modal组件可拖拽状态下设置宽度为百分比时窗口显示异常</Title>
+        <a class="mg-right" href="https://github.com/view-design/ViewUIPlus/issues/208"><Button>Issue</Button></a>
+        <a class="mg-right" href="https://github.com/view-design/ViewUIPlus/pull/218"><Button>Pull Request</Button></a>
+        <a class="mg-right" href="https://run.iviewui.com/"><Button>Playground</Button></a>
+
+        <Title :level="3" class="mg-top">禁用的树节点被父节点影响</Title>
+        <a class="mg-right" href="https://github.com/view-design/ViewUIPlus/issues/199"><Button>Issue</Button></a>
+        <a class="mg-right" href="https://github.com/view-design/ViewUIPlus/pull/217"><Button>Pull Request</Button></a>
+        <a class="mg-right" href="https://run.iviewui.com/"><Button>Playground</Button></a>
+        <Tree :data="data" show-checkbox multiple></Tree>
+
+        <Card style="white-space: pre-line;" class="mg-top">
+            {{`<template>
+                <Tree :data="data" show-checkbox multiple></Tree>
+            </template>
+            <script>
+                export default {
+                    data () {
+                        return {
+                            data: [
+                                {
+                                    title: 'parent 1',
+                                    expand: true,
+                                    selected: true,
+                                    children: [
+                                        {
+                                            title: 'parent 1-1',
+                                            expand: true,
+                                            children: [
+                                                {
+                                                    title: 'leaf 1-1-1',
+                                                    disabled: true
+                                                },
+                                                {
+                                                    title: 'leaf 1-1-2'
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            title: 'parent 1-2',
+                                            expand: true,
+                                            children: [
+                                                {
+                                                    title: 'leaf 1-2-1',
+                                                    disableCheckbox: true
+                                                },
+                                                {
+                                                    title: 'leaf 1-2-1'
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    }
+                }
+            </script>
+            `}}
+        </Card>
+
+        <Title :level="3" class="mg-top">树组件箭头间距缺失</Title>
+        <a class="mg-right" href="https://github.com/view-design/ViewUIPlus/issues/211"><Button>Issue</Button></a>
+        <a class="mg-right" href="https://github.com/view-design/ViewUIPlus/pull/216"><Button>Pull Request</Button></a>
+        <a class="mg-right" href="https://run.iviewui.com/"><Button>Playground</Button></a>
+
+        <Title :level="3" class="mg-top">ellipsis组件由于缺少小数而导致的部分字号(如2.7rem)缺行</Title>
+        <a class="mg-right" href="https://github.com/view-design/ViewUIPlus/issues/207"><Button>Issue</Button></a>
+        <a class="mg-right" href="https://github.com/view-design/ViewUIPlus/pull/210"><Button>Pull Request</Button></a>
+        <a class="mg-right" href="https://run.iviewui.com/"><Button>Playground</Button></a>
+
+        <div style="width:720px;margin: 0 auto;">
+            <Ellipsis  style="font-size:2.7rem" :text="text" :lines="4" tooltip />
         </div>
+
+        <Card style="white-space: pre-line;" class="mg-top">{{`<template>
+            <div style="width:400px;margin: 0 auto;">
+                <Ellipsis style="font-size:2.7rem" :text="text" :lines="4" tooltip />
+            </div>
+        </template>
+        <script>
+            export default {
+                data () {
+                    return {
+                        text: '史蒂夫·乔布斯（英语：Steve Jobs），是一名美国企业家、营销家和发明家，苹果公司的联合创始人之一，曾任董事长及首席执行官职位，NeXT创办人及首席执行官，也是皮克斯动画的创办人并曾任首席执行官，2006年为华特迪士尼公司的董事会成员。2017年9月苹果发布会举行的地方，以他命名为 Steve Jobs Theater 。'
+                    }
+                }
+            }
+        </script>`}}</Card>
         <div style="margin: 50px">
             <router-view></router-view>
         </div>
@@ -109,8 +130,74 @@
     export default {
         data () {
             return {
-
+                data: [
+                    {
+                        title: 'parent 1',
+                        expand: true,
+                        selected: true,
+                        children: [
+                            {
+                                title: 'parent 1-1',
+                                expand: true,
+                                children: [
+                                    {
+                                        title: 'leaf 1-1-1',
+                                        disabled: true
+                                    },
+                                    {
+                                        title: 'leaf 1-1-2'
+                                    }
+                                ]
+                            },
+                            {
+                                title: 'parent 1-2',
+                                expand: true,
+                                children: [
+                                    {
+                                        title: 'leaf 1-2-1',
+                                        disableCheckbox: true
+                                    },
+                                    {
+                                        title: 'leaf 1-2-1'
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                text: '史蒂夫·乔布斯（英语：Steve Jobs），是一名美国企业家、营销家和发明家，苹果公司的联合创始人之一，曾任董事长及首席执行官职位，NeXT创办人及首席执行官，也是皮克斯动画的创办人并曾任首席执行官，2006年为华特迪士尼公司的董事会成员。2017年9月苹果发布会举行的地方，以他命名为 Steve Jobs Theater 。',
+                list: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+            }
+        },
+        methods: {
+            handleReachEdge (dir) {
+                return new Promise(resolve => {
+                    setTimeout(() => {
+                        if (dir > 0) {
+                            const first = this.list[0];
+                            for (let i = 1; i < 11; i++) {
+                                this.list.unshift(first - i);
+                            }
+                        } else {
+                            const last = this.list[this.list.length - 1];
+                            for (let i = 1; i < 11; i++) {
+                                this.list.push(last + i);
+                            }
+                        }
+                        resolve();
+                    }, 2000);
+                });
             }
         }
     }
 </script>
+<style scoped>
+.mg-top{
+    margin-top:0.6rem;
+    display:block;
+}
+.mg-right{
+    margin-top:0.6rem;
+    margin-right: 0.6rem;
+}
+</style>
